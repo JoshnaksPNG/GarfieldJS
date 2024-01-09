@@ -1,0 +1,28 @@
+{
+  "name": "garfieldjs",
+  "version": "0.0.1",
+  "description": "JS Wrapper To Retrieve Garfield Comic URL",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.js",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "Garfield",
+    "GarfieldJS"
+  ],
+  "author": "Joshnaks",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/jsdom": "^21.1.6",
+    "got": "^14.0.0",
+    "jsdom": "^23.2.0",
+    "ky": "^1.2.0",
+    "ky-universal": "^0.12.0"
+  }
+}
