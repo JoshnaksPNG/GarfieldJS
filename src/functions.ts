@@ -23,7 +23,6 @@ export const WINDOW_COMIC : Date = new Date(1981, 2, 29);
 // Parameters
 /**  
  * @param date
- * @constructor
  * **/
 export async function getGarfield(date: Date) : Promise<string>
 {
@@ -51,7 +50,11 @@ export async function getGarfield(date: Date) : Promise<string>
         .then(html => 
         {
             const dom = new JSDOM(html);
-            
+
+            // DOMParser() does not work on Node
+            //const dom = new DOMParser().parseFromString(html, "text/html");
+            //let pictureContainer = dom.querySelector(".item-comic-image");
+
             let pictureContainer = dom.window.document.querySelector(".item-comic-image");
                     
             if(pictureContainer)
