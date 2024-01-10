@@ -11,23 +11,23 @@ const { getGarfield, todayGarfield, randomGarfield, randomThreePanel, randomSund
 getGarfield(new Date(1999, 2, 3)).then(s => console.log("March 3rd, 1999 URL: " + s));
 
 // Log the URL of Today's Garfield strip
-todayGarfield().then(s => console.log("tod " + s));
+todayGarfield().then(s => console.log("Today URL: " + s));
 
 // Log the URL of a Random Garfield strip
-randomGarfield().then(s => console.log("rand " + s));
+randomGarfield().then(s => console.log("Random URL: " + s));
 
 // Log the URL of a Random Sunday (long) Garfield strip
-randomSunday().then(s => console.log("sun " + s));
+randomSunday().then(s => console.log("Sunday URL: " + s));
 
 // Log the URL of a Random 3-Panel (not Sunday) Garfield strip
-randomThreePanel().then(s => console.log("three " + s));
+randomThreePanel().then(s => console.log("Three Panel URL: " + s));
 
 // Log the URL of the first ever Garfield strip
-getGarfield(FIRST_GARFIELD).then(s => console.log("first " + s));
+getGarfield(FIRST_GARFIELD).then(s => console.log("First URL: " + s));
 
 // Log the URL of the famed pipe strip
-getGarfield(PIPE_COMIC).then(s => console.log("pipe " + s));
+getGarfield(PIPE_COMIC).then(s => console.log("Pipe URL: " + s));
 
 // Log the URL of the famed window strip
-getGarfield(WINDOW_COMIC).then(s => console.log("window " + s));
+getGarfield(WINDOW_COMIC).then(s => console.log("Window URL: " + s));
 ```
