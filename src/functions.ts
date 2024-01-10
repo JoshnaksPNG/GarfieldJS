@@ -1,7 +1,5 @@
 // Dependancies
 import { JSDOM } from "jsdom";
-//import ky from "ky-universal";
-//import got from "got";
 
 /** 
  * Properties
@@ -32,7 +30,6 @@ export async function getGarfield(date: Date) : Promise<string>
     let year : number = date.getFullYear();
     let month : number = date.getMonth() + 1;
     let day : number = date.getDate();
-    console.log(`y: ${year}`);
 
     if(date.valueOf() < FIRST_GARFIELD.valueOf())
     {
