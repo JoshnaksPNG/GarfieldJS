@@ -1,7 +1,7 @@
 # GarfieldJS
  JS Wrapper To Retrieve Garfield Comic Raw URL
 
-## Examples
+## Usage
  GarfieldJS provides 5 asyncronous functions that return promises containing the URL of the desired strip, as well as 3 dates of notable garfield strips
 
 ```jsx
