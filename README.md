@@ -1,4 +1,4 @@
-# GarfieldJS
+# [GarfieldJS](https://www.npmjs.com/package/randomwikipediajs) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/JoshnaksPNG/RandomWikipediaJS/blob/main/LICENSE) [![npm version](https://img.shields.io/npm/v/garfieldjs.svg?style=flat)](https://www.npmjs.com/package/garfieldjs)
  JS Wrapper To Retrieve Garfield Comic Raw URL
 
 ## Usage
